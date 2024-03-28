@@ -1,0 +1,38 @@
+.pie-chart-card {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+  }
+}
+
+.info-container {
+  align-self: flex-start;
+
+  @media (min-width: 992px) {
+    align-self: unset;
+  }
+}
+
+.sales-summary-card-value {
+  color: #334ac3;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.sales-summary-card-label {
+  color: #8d8d8d;
+  font-size: 18px;
+}
+
+.apexcharts-legend {
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap !important;
+}

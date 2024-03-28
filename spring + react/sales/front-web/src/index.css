@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #283142;
+  --secondary-color: #1b2531;
+  --light-color: #e9e9e9;
+  --grey-light-50: #9aaabe;
+  --grey-light-100: #949494;
+  --grey-light-125: #72849a;
+  --grey-light-150: #384459;
+  --green-color: #08b976;
+  --white-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9dbe4;
+  color: var(--light-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.base-card {
+  background: #ffffff;
+  border-radius: 5px;
+
+  @media (min-width: 576px) {
+    padding: 40px;
+  }
+}

@@ -1,0 +1,58 @@
+.btn-container {
+	display: flex;
+	background-color: #ededed;
+	align-items: center;
+	border-radius: 10px;
+	padding: 28px 50px;
+}
+
+.btn-container button {
+	border-radius: 5px;
+	background-color: #00285f;
+	width: 174px;
+	height: 40px;
+}
+
+.btn-container button:hover {
+	background-color: #00285f;
+}
+
+.btn-container p {
+	font-weight: 400;
+	font-size: 18px;
+	color: #585858;
+	margin: 9px 0 0;
+}
+
+.btn h6 {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+@media (min-width: 576px) {
+	.btn-container {
+		padding: 42px 85px;
+	}
+
+	.btn h6 {
+		font-size: 14px;
+	}
+
+	.btn-container p {
+		margin: 0 0 0 16px;
+	}
+}
+
+@media (min-width: 768px) {
+	.btn-container {
+	}
+}
+
+@media (min-width: 1200px) {
+	.btn-container {
+		width: 979px;
+		margin-top: 30px;
+	}
+}
